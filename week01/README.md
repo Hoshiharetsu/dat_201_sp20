@@ -4,6 +4,7 @@
 1. [Let's introduce ourselves](#introductions)
 2. [The syllabus](#syllabus)
 3. [Excel fun](#excel)
+4. [Homework](#homework)
 
 ## <span id="introductions">1. Let's introduce ourselves</span>
 
@@ -29,3 +30,12 @@ Let's go over [it](../files/DAT-201_Course_Outline_2020_Spring.docx). Some thing
 Go download the other files in this directory (week01), if you haven't already. The Word doc has directions about what we're going to do with the two LibreOffice Calc files, which will open just fine in Excel. (Short version: we're going to have some fun with VLookup and pivot tables!)
 
 A note about Office vs. LibreOffice: you get Microsoft Office for free as a CCAC student, and there are benefits to knowing it, given how many businesses rely on it. That said, a lot of this course happens in a Linux environment, which means that taking the time to learn some LibreOffice could be a time-saver in the near future. Also, once you graduate, you only get MS Office if you (or your employers) pay for it; there might be some benefits to learning LibreOffice, in preparation for that eventuality.  
+
+## <span id="homework">4. Homework for this week</span>
+
+Obviously, finish up your Excel work. Come back next week ready to discuss what you've found out about different courses at CCAC and their grade distributions. (And what questions remain.)
+
+Also, there are some readings to do between this week and next:
+* Nash, Tom. "Skipping class? Don’t let your Wi-Fi know." Muckrock. 11/26/2019. [link](https://www.muckrock.com/news/archives/2019/nov/26/skipping-class-dont-let-your-wi-fi-know/)
+* Harwell, Drew. "Colleges are turning students’ phones into surveillance machines, tracking the locations of hundreds of thousands." _The Washington Post_. 12/24/2019. [link](https://www.washingtonpost.com/technology/2019/12/24/colleges-are-turning-students-phones-into-surveillance-machines-tracking-locations-hundreds-thousands/)
+* Barshay, Jill and Aslanian, Sasha. "Under a Watchful Eye." American Public Media Reports. 8/6/2019. [link](https://www.apmreports.org/story/2019/08/06/college-data-tracking-students-graduation)

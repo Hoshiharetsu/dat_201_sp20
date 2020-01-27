@@ -22,6 +22,7 @@ Let's go over [it](../files/DAT-201_Course_Outline_2020_Spring.docx). Some thing
     a. This might affect your answer (or not), so we should also be sure to talk about group work in this course before we make this decision.
 3. We should go over the schedule, which is (as always!) flexible. We should talk about the Reading Day, but we don't have to make a decision now.
 4. Reminder that we have [a Slack channel](https://ccac-data-analytics.slack.com) (#dat-201) for this course. You need to use your CCAC email address to register.
+5. There are some career fairs and resume review activites coming up this semester. I've put information into [/files/announcements/](./files/announcements).
 
 ## <span id="excel">3. Excel fun!</span>
 

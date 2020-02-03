@@ -63,8 +63,10 @@ Tab-completion is your friend, here. It'll save you some pain.
 Everyone's got a favorite editor. I'm not here to fight about it. 
 
 On a lot of systems, the default editor is something called "vim" or "vi"; less often, it might be emacs or nano. If you don't like the default editor and want to set it to (in this example) nano, you'll add the following two lines to your `~/.bashrc`:
-```export VISUAL="/usr/bin/nano"
-export EDITOR="$VISUAL"```
+```
+export VISUAL="/usr/bin/nano"
+export EDITOR="$VISUAL"
+```
 
 If you want to learn to use vim, I think that's a super cool and fun thing for you to learn to do on your own time!
 

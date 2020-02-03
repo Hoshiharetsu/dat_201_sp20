@@ -35,7 +35,7 @@ Our base command, here, is `cd` which is short for "change directory."
 
 `cd /home/ccac-data/Downloads` - no matter what working directory we're in, this put us in /home/ccac-data/Downloads (making that our working directory), assuming such a directory exists [absolute]
 
-`cd ~` - this will make the user's home directory into their current working directory
+`cd ~` - this will make the user's home directory into their current working directory [absolute]
 
 These can be combined. Valid: 
 * `cd ../../dirname`
@@ -68,7 +68,7 @@ export VISUAL="/usr/bin/nano"
 export EDITOR="$VISUAL"
 ```
 
-If you want to learn to use vim, I think that's a super cool and fun thing for you to learn to do on your own time!
+If you want to learn to use vim, I think that's a super cool and fun thing for you to learn to do on your own time! 
 
 But for our purposes? I think nano is an easier one to start with. And conveniently it appears to be the default on these systems. So. 
 

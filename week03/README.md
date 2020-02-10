@@ -53,9 +53,9 @@ We live on a planet that is roughly spherical. Paper and computer screens are ge
 * [A map projection/distortion visualization](https://ncxiao.github.io/map-projections/index.html) - uses both [Tissot's indicatrix](https://www.esri.com/arcgis-blog/products/product/mapping/tissots-indicatrix-helps-illustrate-map-projection-distortion/) and the Gedymin faces (from the link above)
 * Bonus, if you're interested: [a 2001 article comparing tools for understanding map projections](https://link.gale.com/apps/doc/A78393275/AONE?u=pitt92539&sid=AONE&xid=58f394ec)
 
-### Some questions I want you to answer:
+### Some questions I want us to answer:
 
-1. If you're choosing between a cylindrical and a conical projection, which would maintain greater angular fidelity? Which would maintain greater distance fidelity to the spherical globe? Explain why.
+1. What kinds of projections allow us to maintain greater angular fidelity (as compared to the spherical globe)? What kinds maintain greater distance fidelity? 
 2. Describe the ideal use cases for several types of projection system given the range of possible uses of a map. (Consider navigation, surveying, representations at various scales, etc.)
 
 ## <span id="gis"> 3. GIS</span>
@@ -67,15 +67,17 @@ Concepts:
 * Geographical vs. political boundaries
 * Vector vs. raster file types
 * Points, lines, polygons
+* Layers
 
 ![a helpful diagram](../files/gis-data-types.png)
 *image [credit](http://metrocosm.com/qgis/)*
 
+Let's talk about the kinds of problems that can be solved with GIS. 
 
 ## <span id="homework"> 4. Homework</span>
 
 You actually need to have QGIS up and running next week. For real. If you got it working in your virtual machine, great! If you want to run it on your own machine, in your favorite operating system, that's also great! It'll be helpful to you later in the semester if you have QGIS and PostgreSQL on the same system, and that system really shouldn't be Windows, but if you want to make "get QGIS running on Linux" into future-you's problem, that's between you and future-you (though we'll all help each other, no matter which stage we're at).
 
-Once you have QGIS up and running, I'd like you to watch through [this video](https://youtu.be/kCnNWyl9qSE). (You will have to hit pause and possibly also rewind. He goes fast. I _teach people_ QGIS, and I had to hit pause and rewind.) Explore QGIS. You don't need to be an expert when you show up next week&mdash;I'm going to walk you through several examples in-class&mdash;but if you've looked through it and figured out the basics, you'll get more out of the in-class session and be more likely to come up with questions that stump me. :) 
+Once you have QGIS up and running, I'd like you to work through [this video](https://youtu.be/kCnNWyl9qSE). (You will have to hit pause and possibly also rewind. He goes fast. I _teach people_ QGIS, and I had to hit pause and rewind.) Explore QGIS. You don't need to be an expert when you show up next week&mdash;I'm going to walk you through several examples in-class&mdash;but if you've looked through it and figured out the basics, you'll get more out of the in-class session and be more likely to come up with questions that stump me. :) 
 
 Remember to log the time you spend. 

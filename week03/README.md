@@ -14,7 +14,7 @@ I signed up for [this cool mapping metadata event we talked about last week](htt
 
 DAT-202 is going to [this event](https://www.meetup.com/PGH-Data-Science/events/267877749/), and you're invited to join us! (It's a Tuesday night, in Oakland.)
 
-The DAT, MMC, and CIT faculty put in our schedule request for fall. On the DAT side, we're looking at running 102, 119, 129, 201, 202 (DA 2), and 203 (Data Viz). We don't have professors assigned to classes, yet, but most likely Professor Darsow will have 203 on Monday nights, and I'll have 202 on Tuesday nights. 
+The DAT, MMC, and CIT faculty put in our schedule request for fall. On the DAT side, we're looking at running 102, 119, 129, 201, 202 (DA 2), and 203 (Data Viz). We don't have professors assigned to classes, yet, but most likely Professor Darsow will have 203 on Thursday nights, and I'll have 202 on Tuesday nights. 
 
 ## <span id="readings">1. Readings</span>
 
@@ -34,10 +34,10 @@ Let's talk about the lies maps tell us. What surprised you, in the readings? Do 
 
 ## <span id="projections">2. Projections</span>
 
-We live on a planet that is roughly spherical. Our computer screens are flat. This presents some problems.
+We live on a planet that is roughly spherical. Paper and computer screens are generally flat. This presents some problems.
 
 ![What's that? You think I don't like the Peters map because I'm uncomfortable with having my cultural assumptions challenged?  Are you sure you're not ... ::puts on sunglasses:: ... projecting?](https://imgs.xkcd.com/comics/map_projections.png) 
-*image &amp; alt text courtesy of XKCD*
+*image &amp; alt text courtesy of [XKCD](https://xkcd.com/977/)*
 
 ### Some tools to help us understand ~~the comic above~~ projections
 * [First, a short video](https://www.youtube.com/watch?v=vVX-PrBRtTY)
@@ -59,7 +59,7 @@ We live on a planet that is roughly spherical. Our computer screens are flat. Th
 ## <span id="gis"> 3. GIS</span>
 
 "GIS" stands for "Geographic Information System." Wikipedia's definition is fine: "a system designed to capture, store, manipulate, analyze, manage, and present spatial or geographic data." This encompasses the hardware, software, data, and people involved in a geospatial analysis. 
-But "GIS" sometimes means "Geographic Information System_s_," the field. 
+But "GIS" sometimes means "Geographic Information Systems," the field. 
 
 Concepts:
 * Geographical vs. political boundaries

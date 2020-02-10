@@ -1,0 +1,3 @@
+# Links you might find useful:
+
+[Anonymous, optional survey](https://forms.gle/8byp3BTu2ex127Xk8) - This does not take the place of the official Survey of Student Opinion given out at mid-term, which goes to me and to my Department Head and to various administrators and _which I can only make use of to improve my teaching in *future* semesters_. The survey linked here is an informal way for you to tell me what I should (and should not!) change _while this semester's still happening_, and I'm the only one who sees it. You can also use it to ask questions if you have something you want to ask without my knowing who asks it.

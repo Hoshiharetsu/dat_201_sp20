@@ -2,9 +2,10 @@
 
 ## Agenda
 0. [Announcements](#announcements)
-1. [Talking about the readings](#readings)
+1. [Talking about homework/readings](#readings)
 2. [Projections](#projections)
-3. [GIS](#gis)
+3. [GIS basics](#gis)
+4. [Homework](#homework)
 
 ## <span id="announcements">0. Announcements</span>
 
@@ -16,7 +17,7 @@ DAT-202 is going to [this event](https://www.meetup.com/PGH-Data-Science/events/
 
 The DAT, MMC, and CIT faculty put in our schedule request for fall. On the DAT side, we're looking at running 102, 119, 129, 201, 202 (DA 2), and 203 (Data Viz). We don't have professors assigned to classes, yet, but most likely Professor Darsow will have 203 on Thursday nights, and I'll have 202 on Tuesday nights. 
 
-## <span id="readings">1. Readings</span>
+## <span id="readings">1. Talking about homework &amp; readings</span>
 
 Write up an index card (I'll hand some out) with the following:
 * Your name
@@ -29,8 +30,9 @@ Let's talk about the lies maps tell us. What surprised you, in the readings? Do 
 
 ### Good maps
 
-[John Snow](https://en.wikipedia.org/wiki/John_Snow#Cholera)
-
+* The classic example: [John Snow](https://en.wikipedia.org/wiki/John_Snow#Cholera)
+* Not a map, per se, but certainly an excellent use of GIS: [Using GIS to Develop a Priority Work Area in Western North Carolina](http://www.conservationgis.org/scgis/2011Contest/INH%20Mark%20Endries%20PriorityWorkAreas.pdf)
+* So many [@amazingmap on Twitter](https://twitter.com/amazingmap)
 
 ## <span id="projections">2. Projections</span>
 

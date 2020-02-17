@@ -11,9 +11,9 @@
 * 2/3 - [Week 2](./week02) - Intro to Linux &amp; command line interfaces
 * 2/10 - [Week 3](./week03) - Projections &amp; GIS basics
 * 2/17 - [Week 4](./week04) - QGIS week 1
-* 2/24 - [Week 5](./week05) - QGIS week 2
-* 3/2 - Week 6
-* 3/9 (midterm grades) - Week 7 - mini-mapping projects due
+* 2/24 - [Week 5](./week05) - QGIS week 2; also, project work time
+* 3/2 - Week 6 - Guest Speaker: Dan Davis from Draw the Lines PA; also project work time
+* 3/9 (midterm grades) - Week 7 - mini-mapping projects due? ??
 
 ## Attribution/License Information
 

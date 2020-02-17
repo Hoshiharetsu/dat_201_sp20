@@ -6,6 +6,7 @@
 2. [QGIS Practice](#qgis)
     * [Adding layers and counting points](#qgis1)
     * [Joining flat files with vector files](#qgis2)
+3. [Homework/Readings](#homework)
 
 ## <span id="announcements">Announcements</span>
 
@@ -92,7 +93,7 @@ Looking at (one aspect of) the digital divide in Pennsylvania.
 1. Start a new project (and then save it in your designated folder for QGIS files).
 1. Add the Census Tracts shapefile as a layer.
 1. Have a look at its attribute table.
-1. Clean up the Internet Access (ACS_17_574_B28002_with_ann) file in Excel, to remove data we don't want.
+1. Clean up the Internet Access (ACS_17_574_B28002_with_ann) file in Excel, to remove data we don't want. (Open it, Save As something meaningful, and then start making changes.)
     * It's vital that we keep the GEO.id2 field, but let's change it to GEO_id2.
     * Let's say we're looking at the estimated number of households without internet access, column HD01_VD13 (second to last column); we should keep that. We'll also want the estimated total number of households (HD01_VD01). We should keep those two columns, plus GEO_id2. We should also give them more useful names: total_households and no_internet_households.
     * We should also remove that explanatory row (row 2).

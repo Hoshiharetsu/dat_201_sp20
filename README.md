@@ -2,7 +2,7 @@
 
 ## Course documents
 
-* [Syllabus](./files/DAT-201_Course_Outline_2020_Spring.docx) (.docx)
+* [Syllabus](./files/course_outline_DAT-202_20sp.pdf) 
 * [Readings](readings.md)
 
 ## Schedule

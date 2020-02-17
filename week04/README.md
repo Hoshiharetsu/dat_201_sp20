@@ -4,8 +4,8 @@
 0. [Announcements](#announcements)
 1. [Talking about homework/readings](#readings)
 2. [QGIS Practice](#qgis)
-    a. [Adding layers and counting points](#qgis1)
-    b. [Joining flat files with vector files](#qgis2)
+    * [Adding layers and counting points](#qgis1)
+    * [Joining flat files with vector files](#qgis2)
 
 ## <span id="announcements">Announcements</span>
 
@@ -26,45 +26,45 @@ You might find this [really nice cheat sheet](https://north-road.com/qgis-3-0-sh
 The question: The Forestry Division of the Department of Public Works has money to plant more trees. What neighborhoods would you tell them to prioritize?
 
 1. Get these data sets, and save them onto your machine in a folder you've created to store all of your QGIS work (in Windows, how about making a QGIS folder under Documents?):
-    [Fixed up PGH neighborhoods shapefiles](../files/shapefiles/fixed_neighborhoods.zip) - right-click, save-as, and then unzip/extract the folder
-    [City of Pittsburgh Trees](https://data.wprdc.org/dataset/city-trees) (CSV)
+    * [Fixed up PGH neighborhoods shapefiles](../files/shapefiles/fixed_neighborhoods.zip) - right-click, save-as, and then unzip/extract the folder
+    * [City of Pittsburgh Trees](https://data.wprdc.org/dataset/city-trees) (CSV)
 1. Open QGIS, and start a new project (Project -> New; then do yourself a favor, and choose Project -> Save, and save it in the folder you've made for QGIS files) .
 1. (Optional, but I like it.) In the "Browser" area, find XYZ Tiles, drop it down, and add the OpenStreetMap layer to your map if you want by double-clicking or dragging onto your map.
 1. Add the Neighborhood Shapefiles Layer (Layer -> Add Layer -> Add Vector Layer, and you'll want "fixed_neighborhoods.shp"; close the dialog box after the layer shows up in the Layers box)
 1. Right-click on the "fixed_neighborhoods" layer, and choose "Zoom to Layer"
 1. Have a look at the Attribute Table for the fixed_neighborhoods layer. (Right-click, or there's a button in the toolbar at the top of the screen. It looks a bit like a calendar. If you like shortcuts, it's F6.) Admire how much data we have, already.
 1. Now, we have a LOT of data about trees in our CSV file. We don't want or need all of it. So it's time for a quick digression into data cleaning in Excel:
-    a. First off, give your file a better name. I use "pgh_trees." Don't put spaces into the filename.
-    a. Columns to keep: id, address, street, common_name, scientific_name, height, width, condition, neighborhood, tract, latitude, longitude - you can keep any others you think you might want to use later, but these are the ones I keep. (Keep note of how many columns are deleted/which are kept)
-    a. Now we're going to filter our data and remove the following types of trees: "(Blanks)", "Stump," "Vacant Site *", "Non-sufficient space." (Keep note of how many rows are deleted) 
+    * First off, give your file a better name. I use "pgh_trees." Don't put spaces into the filename.
+    * Columns to keep: id, address, street, common_name, scientific_name, height, width, condition, neighborhood, tract, latitude, longitude - you can keep any others you think you might want to use later, but these are the ones I keep. (Keep note of how many columns are deleted/which are kept)
+    * Now we're going to filter our data and remove the following types of trees: "(Blanks)", "Stump," "Vacant Site *", "Non-sufficient space." (Keep note of how many rows are deleted) 
 1. Add the trees as a layer. (Layer -> Add Layer -> Add Delimited Text Layer; choose your csv file, and make sure the file format, geometry definition (point coordinates, x: longitude, y: latitude, Geometry CRS: WGS 84), and layer settings look good)
 1. Check out the attribute table for pgh_trees (it'll take a second to load).
 1. Take a second and visit Vector -> Analysis Tools -> Basic Statistics for Fields. We can run stats in our GIS software! Choose "height" as your field. After you've soaked up the statistical goodness*, close the dialog box. * Is it good? How do we feel about this?
 1. Style the layers how you like. (At the top of the Layers box, you choose the "Open the Layer Styling panel" tooltip. "Single symbol" and "simple marker" are good choices, and you can just choose a color from the drop-down for now.)
 1. Save your project.
 1. Now, we're going to count our trees, to see how they are dispersed between neighborhoods:
-    a. We'll use a tool called "Count Points in Polygon," which is under Vector -> Analysis Tools
-    a. It should correctly identify your polygon layer (fixed_neighborhoods) and your points layer (mine is called "pgh_trees"). To make your life better, you'll probably want to give a more useful field name; I use "tree_count" and specify a savefile (ellipsis beside the "Count" field -> Save To File).
-    a. It will take a minute to run. That's fine.
-    a. And then it creates a new layer ("Count"), on top of all of your others. Examine the attribute table.
-    a. Rename the layer "tree_count." (Right-click on the layer, and Rename is an option.)
+    * We'll use a tool called "Count Points in Polygon," which is under Vector -> Analysis Tools
+    * It should correctly identify your polygon layer (fixed_neighborhoods) and your points layer (mine is called "pgh_trees"). To make your life better, you'll probably want to give a more useful field name; I use "tree_count" and specify a savefile (ellipsis beside the "Count" field -> Save To File).
+    * It will take a minute to run. That's fine.
+    * And then it creates a new layer ("Count"), on top of all of your others. Examine the attribute table.
+    * Rename the layer "tree_count." (Right-click on the layer, and Rename is an option.)
 1. Number of trees is nice and all, but the neighborhoods aren't all equal sizes. I'd argue that density of trees is a more useful metric. Conveniently, we can add columns to our attribute table!
-    a. Open the attribute table for the tree_count layer.
-    a. Open the Field Calculator (the icon looks a bit like an abacus).
-    a. You want to create a new field. Call it "density_tr" (or whatever you like), and set the field type to Decimal Number (real).
-    a. In the center column, you want to open the Fields and Values option, and double-click tree_count to add it to the Expression box. Now hit the division symbol ("/"), and then double-click on "sqmiles" in the center column. Your expression should read "tree_count" / "sqmiles"
-    a. After you click OK, you should see the new column in your table. Go ahead and sort by that column (click on the title until it's sorted smallest to largest). ... Yeah.
+    * Open the attribute table for the tree_count layer.
+    * Open the Field Calculator (the icon looks a bit like an abacus).
+    * You want to create a new field. Call it "density_tr" (or whatever you like), and set the field type to Decimal Number (real).
+    * In the center column, you want to open the Fields and Values option, and double-click tree_count to add it to the Expression box. Now hit the division symbol ("/"), and then double-click on "sqmiles" in the center column. Your expression should read "tree_count" / "sqmiles"
+    * After you click OK, you should see the new column in your table. Go ahead and sort by that column (click on the title until it's sorted smallest to largest). ... Yeah.
     Before we fix this, go ahead and click the pencil icon to exit Edit Mode. It will ask if you want to save. You do.
 1. Now we're going to fix this one neighborhood that doesn't have a square mileage. There are a few steps to do this:
-    a. It looks like there's no square mileage reported for this neighborhood. Honestly, it's missing a bunch of fields, but that's the one we need.
-    a. Highlight this row (and only this row), and then open the Field Calculator again.
-    a. Choose "Update existing field," this time, and below that choose "area." (We're going to fill the "area" column with square meters and then use that value to calculate square miles.)
-    a. Now we're going to use the Search box above the center column, and enter the word "area." Under Geometry, you should have "$area" as an option. Double-click that. Click "OK." Make sure your area column is in line with other areas.
-    a. Reopen the Field Calculator. This time we will update the sqmiles field.
-    a. Grab the area field from the Fields and Values drop-down, and multiply ("*") it by **3.86102e-7**. (Sorry, I haven't found a nicer way to do this.)
-    a. Did the density_tr field populate? If not, how would you populate it? Do it.
-    a. Click the pencil icon to exit Edit Mode.
-    a. Remember to deselect the row (there's an icon in the toolbar to Deselect All).
+    * It looks like there's no square mileage reported for this neighborhood. Honestly, it's missing a bunch of fields, but that's the one we need.
+    * Highlight this row (and only this row), and then open the Field Calculator again.
+    * Choose "Update existing field," this time, and below that choose "area." (We're going to fill the "area" column with square meters and then use that value to calculate square miles.)
+    * Now we're going to use the Search box above the center column, and enter the word "area." Under Geometry, you should have "$area" as an option. Double-click that. Click "OK." Make sure your area column is in line with other areas.
+    * Reopen the Field Calculator. This time we will update the sqmiles field.
+    * Grab the area field from the Fields and Values drop-down, and multiply ("*") it by **3.86102e-7**. (Sorry, I haven't found a nicer way to do this.)
+    * Did the density_tr field populate? If not, how would you populate it? Do it.
+    * Click the pencil icon to exit Edit Mode.
+    * Remember to deselect the row (there's an icon in the toolbar to Deselect All).
 1. We want to be able to mouse over our map and see what neighborhood we're looking at, right? So. Right-click on the tree_count layer, and choose Properties.
 Under Display, you can write HTML to show nicely-formatted pop-ups. To keep this simple, I recommend
       [% "hood" %] <br>

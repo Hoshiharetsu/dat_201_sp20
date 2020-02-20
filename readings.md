@@ -5,3 +5,6 @@
 * Barshay, Jill and Aslanian, Sasha. "Under a Watchful Eye." American Public Media Reports. 8/6/2019. [link](https://www.apmreports.org/story/2019/08/06/college-data-tracking-students-graduation)
 * Wiseman, Andrew. "When Maps Lie." CityLab. 06/25/2015. [link](https://www.citylab.com/design/2015/06/when-maps-lie/396761/)
 * Rannard, Georgina. "Australia fires: Misleading maps and pictures go viral." BBC News. 01/07/2020. [link](https://www.bbc.com/news/blogs-trending-51020564)
+* [What's in a map?](https://www.gislounge.com/whats-in-a-map/)
+* [Design principles for cartography](https://www.esri.com/arcgis-blog/products/product/mapping/design-principles-for-cartography/)
+* [The Incline - Pittsburgh Maps Edition](https://theincline.com/newsletter/2020-02-13-the-pittsburgh-maps-edition/)

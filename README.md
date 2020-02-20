@@ -4,6 +4,7 @@
 
 * [Syllabus](./files/course_outline_DAT-202_20sp.pdf) 
 * [Readings](readings.md)
+* [Links (on the README page of our Files folder)](./files)
 
 ## Schedule
 

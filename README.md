@@ -1,4 +1,4 @@
-# DAT_201_sp20
+# DAT-201 - Spring 2020
 
 ## Course documents
 

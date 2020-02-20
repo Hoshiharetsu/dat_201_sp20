@@ -35,16 +35,19 @@ You're going to want to open GitHub on the browser _on the machine where you're 
     
 ### <span id="qgis1">Sharing Maps Outside of QGIS</span>
 
+First, I verify and clean up the directions. Then I post them.
 
 ### <span id="qgis2">Drawing your own polygons</span>
 
+First, I verify and clean up the directions. Then I post them.
 
 ### <span id="qgis3">Fixing Broken Shapefiles</span>
 
+First, I verify and clean up the directions. Then I post them.
 
 ## <span id="homework">Homework and Readings</span>
 
-## Practice with QGIS on your own:
+### Practice with QGIS on your own:
 
 Look through the [PASDA](http://www.pasda.psu.edu/) data sets, and make a map and a data-based assertion that's interesting to you. (If you want to use [WPRDC](https://data.wprdc.org/dataset) instead, you can.) If none of the data sets speak to you, please look at how many [oil and gas](http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=283) or [coal](http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=271) operations are being run in the [Chesapeake Bay watershed](http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=59) (or Allegheny County or any other subset of the state of interest to you). There are also [oil and gas water pollution control facilities](http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=284), if you'd like to look at those. Don't forget to cite your data sources, and keep a log of the changes you make, so that another data analyst could follow your steps. 
 

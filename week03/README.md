@@ -69,7 +69,7 @@ Concepts:
 * Points, lines, polygons
 * Layers
 
-![a helpful diagram](../files/gis-data-types.png)
+![a helpful diagram](../files/images/gis-data-types.png)
 *image [credit](http://metrocosm.com/qgis/)*
 
 Let's talk about the kinds of problems that can be solved with GIS. 

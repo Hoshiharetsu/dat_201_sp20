@@ -18,3 +18,7 @@ None that I can think of, so far.
 ## <span id="project">Project check-in time</span>
 
 The specification is [here](../files/map_mini_project_specification.md)
+
+## <span id="homework">Homework for next week</span>
+
+Make progress on the project.

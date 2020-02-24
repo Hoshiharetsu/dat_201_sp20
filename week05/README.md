@@ -22,9 +22,8 @@ I gave you two weeks for the readings, and I'll repeat them below, so we won't d
 
 ## <span id="project">Talking about the project</span>
 
-As promised, [here is the specification of the project](../files/map_mini_project_specification.md).
-
-Let's go around the room to find out who has a topic that interests them, and let's see if we can get groups together using just that information. 
+1. As promised, [here is the specification of the project](../files/map_mini_project_specification.md). Let's go around the room to find out who has a topic that interests them, and let's see if we can get groups together using just that information. 
+1. I fiddled with the schedule a bit, as promised. (Landing page of the repository. Thoughts, feelings?)
 
 ## <span id="qgis">QGIS Practice</span>
     
@@ -64,7 +63,7 @@ If you want to make an overview map, the directions are very similar; only, you'
 1. Blending Mode might look familiar if you've used Photoshop in the past. Try a few different ones and see what looks best. I seem to be mostly drawn to Normal and Burn.
 
 
-### <span id="qgis2">Drawing your own polygons</span>
+### <span id="qgis2">Drawing Your Own Polygons</span>
 
 We're going to draw a couple of Canadian provinces (because they're easier than most states, and we can all use a brush up on Canadian geography).
 
@@ -83,7 +82,26 @@ We're going to draw a couple of Canadian provinces (because they're easier than 
 
 ### <span id="qgis3">Fixing Broken Shapefiles</span>
 
-First, I verify and clean up the directions. Then I post them.
+Let's see if the WPRDC's copy of the Neighborhoods shapefiles will work for us. We're going to
+
+* download the files,
+* add Neighborhoods as a vector layer,
+* add the cleaned up trees file as a delimited text layer, and
+* run Count Points in Polygon.
+
+If it doesn't work (spoiler: it won't), we'll try to do the repair. In slightly less detail than week 3's descriptions, here's what the fix looks like:
+
+1. Open the Processing Toolbox (the icon looks like a gear) and find "check validity" under Vector Geometry. Run the tool.
+1. Click the checkmark to have it show you any neighborhoods with invalid geometries. 
+1. Note the neighborhood ID of the Invalid Output layer, and select it from the Attribute Table of the Neighborhoods_ layer.
+1. Open the Toolbox (the gear beside Field Calculator), and search for "fix"
+1. Open "Fix Geometries," make sure the input layer is Neighborhoods_, make sure the "selected features only" box is checked, and give it a directory and new filename to save the fixed neighborhood to.
+1. Now we're going to remove the broken neighborhood from our layer. Maybe you want to save your project first.
+1. Go into the Attribute Table of Neighborhoods_. Probably, the neighborhood with the geometry issues is still selected. (There's a "move selection to top" button!)
+1. Click the pencil to put the table in Edit Mode, and then (making sure only the one row is highlighted) click the trash can to remove this attribute. Click the pencil again to exit edit mode, and save the changes.
+1. Now we have to put our fixed neighborhood back into its parent layer. Go to Vector -> Data Management Tools -> Merge Vector Layers, and choose Neighborhoods_ and Fixed geometries as your input layers. Give a location for the saved file to go (obviously, I called mine "fixed_neighborhoods" when I did this in the past).
+1. Now let's see if we can count the trees again!
+
 
 ## <span id="homework">Homework and Readings</span>
 

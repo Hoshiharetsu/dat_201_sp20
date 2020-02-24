@@ -12,7 +12,7 @@
  
 ## <span id="announcements">Announcements</span>
 
-None that I can think of, so far.
+On March 5th at 4pm, the DAT faculty are convening to start the process of rebuilding our curriculum. Some things will stay the same (e.g. I don't imagine DAT-102 will be entirely reimagined from scratch, but some of the higher-level courses will need major facelifts). Students are invited to show up then; for those folks who aren't available then, you're also welcome to give us comments that we should take into account when we're doing the redesign. 
 
 ## <span id="readings">Talking about homework</span>
 
@@ -35,7 +35,34 @@ You're going to want to open GitHub on the browser _on the machine where you're 
     
 ### <span id="qgis1">Sharing Maps Outside of QGIS</span>
 
-First, I verify and clean up the directions. Then I post them.
+We will want to communicate with people who don't have QGIS, sometimes. Creating print map layouts will help us do so effectively.
+
+For this exercise you can choose any of the maps you've created in class or for homework. I will use the map showing percentage of households without internet that we created last session, but you are not constrained by my choices, here.
+
+1. Open the project you want to create a map of.
+1. Zoom in/out until the area you want to map is taking up most of the map panel.
+1. Go to Project -> New Print Layout, and give your print layout a title. This title will be the default filename for your map when you export it to PDF (or JPG, but use PDF). It will also be how you pull it back up when you want to re-export.
+1. To add your map to your layout, go to Add Item -> Add Map.
+    * When you mouse over the page on the screen, crosshairs will appear.
+    * Hold down the left mouse button and drag to select how much of your page your map will take up. You'll be able to resize and reposition as needed, later.
+    * If you don't like the extent of your map, you can fiddle with it under the Item Properties tab, in the "Extents" section. 
+1. When you have your map on your page, go ahead and save.
+1. Now let's add a legend using the Add Item menu.
+    * Consider changing its title to something more helpful (or at least "Legend") under Item Properties -> Title. If you use a long title, you can add a character to wrap on. (On one map I wrapped on the character "x" and used the title "Households xWithout Internet")
+    * Under Legend Items, you have the option to turn layers/groups on and off by right-clicking and choosing "Hidden." (QGIS will probably require you to turn off "Auto Update" first.)
+    * You can also relabel your layers by clicking the pencil-and-paper button below the Legend Items box.
+1. If you'd like to add a compass rose, you can go to Add Item -> Add Picture, and the ellipsis to choose a file should take you to a pre-loaded list of pictures. (If your QGIS, like my QGIS, fails to do this by default, and if you're on Windows, you can find them in C:\Program Files\QGIS [number]\apps\qgis\svg. The path on the Linux machines is /usr/share/qgis/svg/, and I'll show you in class how I figured that out.) You can try several out, to see which you like.
+1. A title, other commentary, citations for data sources, and any other text labels you might like to add are under Add Item -> Add Label. You can use HTML markup to style your text--remember to check the "Render as HTML" box.
+1. Once you've added items to your heart's content and you're ready to make a sharable map, go to Layout -> Export as PDF.
+
+If you want to make an overview map, the directions are very similar; only, you'll add your zoomed-in area as a map, and then you'll zoom back out and add a second map. Do yourself a favor, and lock your first map before you do this.
+
+1. With the second (overview/large area) map selected, in the Item Properties tab, open the Overviews dropdown.
+1. Click the plus mark to add an overview. (You can double-click and name it something more descriptive than "Overview 1," if you choose to do so.)
+1. Assuming the wide area map is Map 2 and the zoomed-in area map is Map 1, you'll choose Map 1 as your Map frame.
+1. Choose a Frame Style that makes sense. (Simple fill in red is often a default, but if you're doing this on a map that's colored in shades of red, you might choose a different color/style.)
+1. Blending Mode might look familiar if you've used Photoshop in the past. Try a few different ones and see what looks best. I seem to be mostly drawn to Normal and Burn.
+
 
 ### <span id="qgis2">Drawing your own polygons</span>
 

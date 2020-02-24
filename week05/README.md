@@ -66,7 +66,20 @@ If you want to make an overview map, the directions are very similar; only, you'
 
 ### <span id="qgis2">Drawing your own polygons</span>
 
-First, I verify and clean up the directions. Then I post them.
+We're going to draw a couple of Canadian provinces (because they're easier than most states, and we can all use a brush up on Canadian geography).
+
+1. Start a new project.
+1. Add OpenStreetMap (under XYZ Tiles) as a layer.
+1. Create a new shapefile layer. (Layer -> Create Layer -> New Shapefile Layer)
+    * Save it as "provinces.shp" in the directory you're working in tonight.
+    * Set it as a polygon geometry type.
+    * Add fields "id" (whole number) and "name" (text).
+    * Note: Canada is kind of far north. There is definitely a better projection to use, but for now, even though we know better, we'll stick with the project's CRS -- EPSG 3857, Pseudo-Mercator.
+1. Make sure you have the Digitizing Toolbar and Snapping Toolbar turned on (View -> Toolbars, and make sure both are checked)
+1. In the Digitizing Toolbar, enable editing (pencil) and choose the Add Polygon Feature tool (looks like a golf course or a green swimming pool with a little orange star under it)
+1. Trace Saskatchewan. Left-click at one of the top corners, and click at each point where you want there to be a vertex. (Remember: a polygon is just a bunch of lines, and a line is defined by two points.) After you've made it to the final corner, right-click to tell the tool you're finished, and a little table will pop up, asking you to enter an id (1) and the name of the province.
+1. Now, before we start Alberta, do yourself a favor, and turn on the Enable Snapping tool (looks like a horseshoe or magnet)
+1. Now you can snap to the top left corner of Saskatchewan, to start drawing Alberta. It'll also snap to the bottom left corner when you finish.
 
 ### <span id="qgis3">Fixing Broken Shapefiles</span>
 

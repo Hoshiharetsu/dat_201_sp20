@@ -82,7 +82,7 @@ We're going to draw a couple of Canadian provinces (because they're easier than 
 
 ### <span id="qgis3">Fixing Broken Shapefiles</span>
 
-Let's see if the WPRDC's copy of the Neighborhoods shapefiles will work for us. We're going to
+Let's see if [the WPRDC's copy of the Neighborhoods shapefiles](https://data.wprdc.org/dataset/neighborhoods1) will work for us. We're going to
 
 * download the files,
 * add Neighborhoods as a vector layer,

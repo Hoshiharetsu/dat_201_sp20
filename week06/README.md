@@ -24,8 +24,8 @@ Talk about any issues we ran into.
 ## <span id="project">Project check-in time</span>
 
 I want to give you at least a few minutes before the end of the class to check in with your project groups. Make sure you know how to contact one another, and you have a plan for communication between classes; get each other's emails or phone numbers, at least. 
-    * If you want a channel in the Data Analytics Slack, I'm happy to create one for you. (You might have permissions enough to make these yourselves. My requested format, please: #20SP_201_groupname)
-    * If you want me to make you a group in our course Blackboard shell, I'm happy to do that, too.
+* If you want a channel in the Data Analytics Slack, I'm happy to create one for you. (You might have permissions enough to make these yourselves. My requested format, please: #20SP_201_groupname)
+* If you want me to make you a group in our course Blackboard shell, I'm happy to do that, too.
 
 The groups (feel free to come up with good group names, and I'll update them here):
 
@@ -50,6 +50,6 @@ The project specification is [here](../files/map_mini_project_specification.md)
 
 Make progress on the project. 
 
-Next week's agenda: we'll check in as a class; I'll make any announcements that might have popped up; you'll get to fill in SOSOs and grade cards; and then the bulk of class time will be set aside for you to work together. 
+Next week's agenda: we'll check in as a class; I'll make any announcements that might have popped up; you'll get to fill in SOSOs and [grade cards](../files/grade_card_rubric.md); and then the bulk of class time will be set aside for you to work together. 
 
 Project presentations are happening the following week. (I'll give you 30 minutes at the beginning of class to sort out any last-minute issues with your presentations.)

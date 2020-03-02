@@ -1,0 +1,7 @@
+# Draft Grading Rubric
+
+* **A – superior** – completed 90% or more of the readings and homework assignments, with significant thought and/or effort put in; regularly participated in discussions about course material in class or online; spent significant time on course topics between classes and consistently tracked time spent on the course; had good attendance
+* **B – above average** – completed most (75% or more) of the readings and homework assignments and did solid work on them; regularly paid attention to and occasionally participated in discussions about course material in class or online; spent time on course topics between classes and at least sometimes remembered to track time spent on the course; had good attendance
+* **C – average** – completed most (70% or more) of the readings and homework assignments, accomplishing at least the minimum goals of each; regularly paid attention to discussions in class or online; did not spend much time on course topics between classes, or failed to track that time; had reasonable class attendance
+* **D – below average** – not making a good-faith effort to meet the course objectives – did not complete more than 70% of the readings and assignments; did not consistently pay attention to class discussions; did not spend much time on course topics between classes, or failed to track that time; had poor class attendance
+* **F – failure to meet instructor’s expectations** – missed a lot of class meetings and many of the assignments and readings; did not pay attention in class; had poor class attendance

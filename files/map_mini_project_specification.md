@@ -22,3 +22,4 @@ Here are the components your presentation absolutely needs to have:
 * Your processing log, which should be sufficiently detailed that we could hand it to one of your classmates and ask them to create the same map you turned in. (We might actually do this.)
 * A PDF copy of your map layout.
 * Citations of all of your data sources (this can be part of the processing log document—and may have to be, for more complicated-to-get-to pieces of data, like ACS sheets).
+* Documentation of what each group member contributed. 

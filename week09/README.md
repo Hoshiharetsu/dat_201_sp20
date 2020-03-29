@@ -12,6 +12,8 @@
 
 First, let's check in. How are people doing? Can we move forward with presentations (which are allowed to be pre-recorded videos) tonight, or are we missing a lot of people? I was *not* planning to record this part of our Zoom session.  
 
+Do we need to talk about CCAC's, Pittsburgh's, Allegheny County's, or Pennsylvania's current timeline, before we talk about this class specifically?
+
 Survey responses were not plentiful, but the ones that came in were all over the place, with several people wanting to learn *extra* things beyond what I had on the syllabus and several saying "um, we could be done now; that'd be fine with me." 
 
 Let's check in about goals for the rest of the semester:
@@ -25,7 +27,7 @@ I think I can put you into breakout rooms with your groups, if you need time to 
 
 ## <span id="midterm">Project presentations</span>
 
-Here are the components your presentation should have:
+Here are the components your presentation should  have:
 
    * The question you set out to answer.
    * A fully-baked map layout.

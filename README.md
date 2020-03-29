@@ -15,15 +15,15 @@
 * 2/24 - [Week 5](./week05) - QGIS week 2; pulling together project groups
 * 3/2 - [Week 6](./week06) - Guest Speaker: Dan Davis from Draw the Lines PA; project group check-in
 * 3/9 (midterm grades) - [Week 7](./week07) - midterm grade cards, SOSOs, and work time on mapping mini-projects
-* 3/16 - [Week 8](./week08) - half an hour of last-minute group time, then mapping mini-project presentations
-* 3/23 - [Week 9](./week09) - OpenRefine (first half of class); GitHub basics (for anyone who needs it)
-* 3/30 - Week 10 - Working on a shared GitHub repository together
-* 4/6 - spring break, don't show up!
+* 3/16 - would have been week 8, deemed "spring break" due to global pandemic; probably nobody got very much relaxing in
+* 3/21 - also got skipped, formally, but a few of us met and chatted informally
+* 3/30 - [Week 9](./week09) - checking in, confirming we're all OK, then mapping mini-project presentations (which you can have recorded ahead of time); GitHub basics?
+* 4/6 - [Week 10](./week10) - OpenRefine (first half of class); more GitHub?
 * 4/13 - Week 11 - Databases 1
 * 4/20 - Week 12 - Databases 2
-* 4/27 - Week 13 - At least half this class needs to be group work
-* 5/4 - Reading Day - I recommend we treat this as a Secret Bonus Week and actually meet so you have the opportunity to work on the final project with your group, with no new material introduced.
-* 5/11 - Final Project Presentations 
+* 4/27 - Week 13 - maybe Databases 3?
+* 5/4 - Reading Day 
+* 5/11 - Final Project Presentations?
 
 ## Attribution/License Information
 

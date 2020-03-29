@@ -25,7 +25,7 @@ I think I can put you into breakout rooms with your groups, if you need time to 
 
 ## <span id="midterm">Project presentations</span>
 
-Here are the components your presentation absolutely needs to have:
+Here are the components your presentation should have:
 
    * The question you set out to answer.
    * A fully-baked map layout.

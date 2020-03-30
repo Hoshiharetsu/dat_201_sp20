@@ -1,8 +1,18 @@
 # How to GitHub
 
-## One person, one repo, multiple machines, not worrying about branches yet
+## A couple of first steps
 
-(I'll draw the model on the board now. I'm also going to go through all of these steps with you, in person.)
+1. Make sure you have an account on [GitHub](https://github.com) and that you know how to log in to it.
+1. Make sure you have Git and a Linux-style command line:
+* If you're on Windows, get a copy of [Git Bash](https://git-scm.com/downloads) for yourself. 
+* If you're on a Mac, you can use Terminal, and you probably already have git. We can talk through how to get you onto a newer and better version than the default Apple one, but that'll work for tonight. 
+* On Ubuntu Linux (including our virtual machines), it's two commands in the command line interface:
+	* sudo apt-get update 
+	* sudo apt-get install git
+
+## One person, one repo, multiple machines (or directories), not worrying about branches yet
+
+![a diagram showing two local repos and one remote repo](../files/images/multiple_machines_one_remote.jpeg)
 
 1. Log in to your own GitHub account, on github.com, and create a new repository. For our purposes, let's call it `github_practice`. Check the box to "Initialize this repository with a README". (You'll be able to delete this after we're done tonight if you want!)
 1. In Git Bash, navigate to a directory where it makes sense to have some GitHub repositories. My suggested command on Windows, especially on the school machines:
@@ -38,7 +48,7 @@
 
 ## One person, one repo, multiple branches
 
-You might recall from the reading that sometimes&mdash;especially when we're working on a multi-person team, but even sometimes when we're working alone&mdash;we want to work on more than one feature at once, without any risk that we damage our core (hopefully fully tested) functionality. We can segment our work by using branches.
+You might recall from the [reading](https://nvie.com/posts/a-successful-git-branching-model/) that sometimes&mdash;especially when we're working on a multi-person team, but even sometimes when we're working alone&mdash;we want to work on more than one feature at once, without any risk that we damage our core (hopefully fully tested) functionality. We can segment our work by using branches.
 
 1.  Make sure you've got everything pulled onto your local repository from your remote repository (on GitHub) with another `git status` and/or `git pull origin master`
 1. We only have one branch, named `master` right now. Prove it to ourselves:

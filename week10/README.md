@@ -20,3 +20,9 @@ What did you think of the videos? This is a tool we want to learn, right?
 ## <span id="github">GitHub </span>
 
 Continuing from last week: [more GitHub](./github.md)
+
+I'm going to post videos ASAP (spoiler: it was not as soon as Coral wanted) so that you can do more GitHub learning at your own pace.
+
+Next week, I'll add OpenRefine to the mix. And possibly a start on databases.
+
+The week after that is all databases all the time.

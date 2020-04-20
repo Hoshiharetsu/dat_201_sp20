@@ -18,12 +18,9 @@
 * 3/16 - would have been week 8, deemed "spring break" due to global pandemic; probably nobody got very much relaxing in
 * 3/21 - also got skipped, formally, but a few of us met and chatted informally
 * 3/30 - [Week 9](./week09) - checking in, confirming we're all OK, then mapping mini-project presentations (which you can have recorded ahead of time); GitHub basics?
-* 4/6 - [Week 10](./week10) - OpenRefine (first half of class); more GitHub?
-* 4/13 - Week 11 - Databases 1
-* 4/20 - Week 12 - Databases 2
-* 4/27 - Week 13 - maybe Databases 3?
-* 5/4 - Reading Day 
-* 5/11 - Final Project Presentations?
+* 4/6 - [Week 10](./week10) - GitHub
+* 4/13 - [Week 11](./week11) - More GitHub
+* 4/20-5/11 - [Weeks 12+](./weeks12plus) - Databases, OpenRefine, other topics TBD
 
 ## Attribution/License Information
 
